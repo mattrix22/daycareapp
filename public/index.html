@@ -6,8 +6,95 @@
     <title>Registration</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
-    <h1>Hello World</h1>
-    <p>Something</p>
+  <body class="bg-green-500">
+    <header>
+      <div class="logo">
+        <img src="" alt="" />
+      </div>
+      <div class="login-btns">
+        <a href="">Log in</a>
+        <a href="">Sign up</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#" class="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="" class="bg-white max-w-sm mx-auto p-6 rounded shadow">
+        <h2 class="text-3xl mb-3 text-center">Create Account</h2>
+        <div class="form-group">
+          <div class="form--input-group mb-3">
+            <input
+              type="text"
+              placeholder="First Name"
+              class="border-2 border-gray-300 rounded p-1 w-full"
+            />
+            <small class="error-message text-red-500 block"
+              >This is an error</small
+            >
+          </div>
+          <div class="form--input-group mb-3">
+            <input
+              type="text"
+              placeholder="Last Name"
+              class="border-2 border-gray-300 rounded p-1 w-full"
+            />
+            <small class="error-message text-red-500 block"
+              >This is an error</small
+            >
+          </div>
+          <div class="form--input-group mb-3">
+            <input
+              type="date"
+              class="border-2 border-gray-300 rounded p-1 w-full"
+            />
+            <small class="error-message text-red-500 block"
+              >This is an error</small
+            >
+          </div>
+          <div class="form--input-group mb-3">
+            <input
+              type="text"
+              placeholder="Email"
+              class="border-2 border-gray-300 rounded p-1 w-full"
+            />
+            <small class="error-message text-red-500 block"
+              >This is an error</small
+            >
+          </div>
+          <div class="form--input-group mb-3">
+            <input
+              type="text"
+              placeholder="Password"
+              class="border-2 border-gray-300 rounded p-1 w-full"
+            />
+            <small class="error-message text-red-500 block"
+              >This is an error</small
+            >
+          </div>
+          <div class="form--input-group mb-3">
+            <input
+              type="text"
+              placeholder="Confirm Password"
+              class="border-2 border-gray-300 rounded p-1 w-full"
+            />
+            <small class="error-message text-red-500 block"
+              >This is an error</small
+            >
+          </div>
+        </div>
+        <button
+          type="submit"
+          class="bg-green-700 text-white py-2 px-3 mt-5 w-full shadow uppercase font-bold tracking-wider rounded"
+        >
+          Submit
+        </button>
+      </form>
+    </main>
   </body>
 </html>
