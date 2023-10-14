@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="scripts.js" defer></script>
   </head>
   <body class="bg-green-500">
     <div class="md:grid md:grid-cols-5">
@@ -57,11 +58,14 @@
             >Sign up</a
           >
         </div>
-        <div class="container col-span-2 h-screen bg-white rounded">
+        <div
+          class="container flex justify-center items-center col-span-2 h-screen bg-white rounded"
+          id="main-container"
+        >
           <form
             action=""
             id="form"
-            class="mt-10 border-2 w-96 p-10 mx-auto rounded shadow"
+            class="mt-10 border-2 w-96 p-10 mx-auto rounded shadow shadow-slate-300"
           >
             <h2 class="font-bold text-4xl mb-7">Create Account</h2>
             <div class="form-group">
