@@ -59,7 +59,7 @@
           >
         </div>
         <div
-          class="container flex justify-center items-center col-span-2 h-screen bg-white rounded"
+          class="container flex justify-center items-center col-span-2 py-4 bg-white rounded"
           id="main-container"
         >
           <form
@@ -69,11 +69,20 @@
           >
             <h2 class="font-bold text-4xl mb-7">Create Account</h2>
             <div class="form-group">
-              <label for="name" class="block font-bold">Name</label>
+              <label for="first-name" class="block font-bold">First Name</label>
               <input
                 type="text"
                 placeholder="Jane Smith"
-                id="name"
+                id="first-name"
+                class="border w-full p-2 rounded hover:border-orange-500 focus:outline-green-400 cursor-pointer"
+              />
+            </div>
+            <div class="form-group">
+              <label for="last-name" class="block font-bold">Last Name</label>
+              <input
+                type="text"
+                placeholder="Jane Smith"
+                id="last-name"
                 class="border w-full p-2 rounded hover:border-orange-500 focus:outline-green-400 cursor-pointer"
               />
             </div>
@@ -103,6 +112,27 @@
                 class="border w-full p-2 rounded hover:border-orange-500 focus:outline-green-400 cursor-pointer"
               />
             </div>
+
+            <div class="form-group mb-5">
+              <label for="password" class="block font-bold">Password</label>
+              <input
+                type="text"
+                id="password"
+                class="border w-full p-2 rounded hover:border-orange-500 focus:outline-green-400 cursor-pointer"
+              />
+            </div>
+
+            <div class="form-group mb-5">
+              <label for="second-password" class="block font-bold"
+                >Confirm Password</label
+              >
+              <input
+                type="text"
+                id="second-password"
+                class="border w-full p-2 rounded hover:border-orange-500 focus:outline-green-400 cursor-pointer"
+              />
+            </div>
+
             <span class="font-bold w-full flex justify-center my-5">or</span>
             <button
               class="py-4 px-3 mt-5 w-full shadow uppercase font-bold tracking-wider rounded flex justify-around border-2 hover:bg-gray-100"
